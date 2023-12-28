@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  ubuntu-ssh-instance-1:
+    image: ubuntu-ssh
+    container_name: ubuntu-ssh-container-1
+    ports:
+      - "2221:22"
+
+  ubuntu-ssh-instance-2:
+    image: ubuntu-ssh
+    container_name: ubuntu-ssh-container-2
+    ports:
+      - "2222:22"
+
+  ubuntu-ssh-instance-3:
+    image: ubuntu-ssh
+    container_name: ubuntu-ssh-container-3
+    ports:
+      - "2223:22"
+
+  ubuntu-ssh-instance-4:
+    image: ubuntu-ssh
+    container_name: ubuntu-ssh-container-4
+    ports:
+      - "2224:22"
+
+  ubuntu-ssh-instance-5:
+    image: ubuntu-ssh
+    container_name: ubuntu-ssh-container-5
+    ports:
+      - "2225:22"
+
+  ubuntu-ssh-instance-6:
+    image: ubuntu-ssh
+    container_name: ubuntu-ssh-container-6
+    ports:
+      - "2226:22"
